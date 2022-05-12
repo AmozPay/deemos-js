@@ -36,7 +36,7 @@ class Deemos {
 	};
 
 	async isValid(id: number): Promise<boolean> {
-		const res: AxiosResponse = await this.req('isvalid', [id]);
+		const res: AxiosResponse = await this.req('isValid', [id]);
 		return res.data.response === true;
 	};
 
