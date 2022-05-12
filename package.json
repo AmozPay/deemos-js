@@ -1,0 +1,32 @@
+{
+  "name": "deemos",
+  "version": "1.1.2",
+  "description": "Decentralized identity managment",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "web3",
+    "decentralization",
+    "identity"
+  ],
+  "author": "Amoz Pay",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmozPay/deemos-js"
+  }
+}
